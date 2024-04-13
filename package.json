@@ -9,6 +9,9 @@
     "url": "https://luisfelipesdn12.now.sh",
     "email": "luisfelipesdn12@gmail.com"
   },
+  "contributors": [
+    {"name": "Paulo Cândido", "url": "https://github.com/pcandido"}
+  ],
   "license": "MIT",
   "scripts": {
     "build": "yarn bili src/brazilian-class-validator.ts -d dist/",
@@ -24,7 +27,7 @@
   "private": false,
   "dependencies": {
     "brazilian-values": "^0.10.1",
-    "class-validator": "^0.13.1"
+    "class-validator": "^0.14.1"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
